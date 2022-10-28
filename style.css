@@ -2,14 +2,13 @@ body {
     display:flex;
     flex-direction: column;
     height:100vh;
-    
     align-items: space-between;
-    font-family: Arial; 
+    font-family: Roboto, sans-serif; 
 }
 
-.header, .footer {
+.theader, .lheader, .footer {
     background-color: #1f2937;
-    padding: 0 100px;
+    padding: 0 150px;
 }
 
 .theader {
@@ -18,15 +17,25 @@ body {
     align-items: center;
 }
 
-.leftheader {
+.leftheader1 {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.lheader {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    
 }
 
 ul {
     list-style-type: none;
     display:flex;
     gap:16px;
+    color:#e5e7eb;
 }
 
 .heromaintext {
@@ -35,12 +44,12 @@ ul {
     font-weight: 800;
 }
 
-.herosecondarytext, .rightheader {
+.herosecondarytext {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-button {
+[type='button1'] {
     background-color:#3882f6;
     color: white;
     border:none;
@@ -50,7 +59,11 @@ button {
 }
 
 .tbody {
-    padding: 0 150px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    padding: 20px 150px;
 }
 
 .infoheadertext {
@@ -58,11 +71,10 @@ button {
     font-weight: 800;
     color: #1f2937;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
 }
 
-.container, .text {
+.container {
     display:flex;
     gap: 25px;
     justify-content: center;
@@ -76,7 +88,7 @@ button {
     border-radius:12px;
 }
 
-.text1, .text2, .text3, .text4 {
+.text {
     width: 160px;
     height: 160px;
     font-size: 18px;
@@ -85,6 +97,10 @@ button {
 }
 
 .mbody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
     background-color: #e5e7eb;
     padding: 0 150px;
 }
@@ -98,4 +114,43 @@ button {
     text-align:right;
     font-size: 18px;
     font-weight: 800;
+}
+
+.lbody {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#3882f6;
+    padding: 30px 80px;
+    margin: 60px 150px;
+    border-radius: 5px;
+}
+
+.footertext {
+    color: #F9faf8;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.footerinfotext {
+    color: #f9faf8;
+
+}
+
+[type='button6'] {
+    background-color:#3882f6;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 16px;
+    font-weight:700;
+}
+
+.footer {
+    display: flex;
+    height:50px;
+    justify-content: center;
+    align-items: center;
+    color:#f9faf8;
 }
