@@ -3,7 +3,8 @@ body {
     flex-direction: column;
     height:100vh;
     align-items: space-between;
-    font-family: Roboto, sans-serif; 
+    font-family: Roboto, sans-serif;
+    margin:auto;
 }
 
 .theader, .lheader, .footer {
